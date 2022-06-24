@@ -10,9 +10,9 @@
   <script>
     var oprt = prompt("Choose an operation: +, -, *, % or /", );
     var num1 = Number(prompt("Number:", ));
-    var num2 = Number(prompt(num1+oprt, ));
+    
     if (oprt != null) {
-        
+        var num2 = Number(prompt(num1+oprt, ));
         if (oprt === '+') {
         var result = num1 + num2;
         alert('Result is '+ result );
